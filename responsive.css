@@ -1,0 +1,574 @@
+@media (max-width:1024px) {
+
+    nav {
+        /* padding: 5vh 5.3vw; */
+        padding-right: 1vw;
+
+    }
+
+    .cards-cont .card h1 {
+        font-size: 3rem;
+    }
+
+    #page4 .left h1 {
+        font-size: 2.5rem;
+        width: 30vw;
+    }
+
+    .inner-layer .first span {
+        left: 17.5%;
+    }
+
+    .para-last p {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .inner-layer .first p {
+        font-size: 1.7rem;
+    }
+
+    .inner-layer .repeat span {
+        left: 25%;
+    }
+
+    .nav-inner-items {
+        font-size: 0.62rem;
+        font-weight: 200;
+    }
+
+    nav button {
+        padding: 0 10px;
+    }
+
+    .inside-cont .left button {
+        padding: 20px 4px;
+        width: 18vw;
+    }
+
+    .page1-top img {
+        width: 65px;
+    }
+
+    #page7 .sec-1 h1 {
+        width: 450px;
+        font-size: 3rem;
+    }
+
+    .second-part .head-repeat h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:912px) {
+
+    nav {
+        padding-bottom: 10vw;
+    }
+
+    nav .nav-item h4 {
+        border-bottom: 1px solid #333;
+        padding-bottom: 4px;
+    }
+
+    nav .nav-item h5 {
+        padding-top: 3px;
+    }
+
+    nav .nav-item {
+        padding: 10px;
+    }
+
+    .nav-inner-items {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+    }
+
+    .nav-effect {
+        /* border-bottom: 1px solid black; */
+        border: none;
+        width: 100%;
+        left: 0;
+    }
+
+    .nav-item h5 {
+        padding-bottom: 0vh;
+    }
+
+    .nav-item> :nth-child(1) {
+        margin-bottom: 0vh;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .pencil {
+        display: block;
+    }
+
+    nav {
+        gap: 62vw;
+    }
+
+    #page6 .child .style {
+        width: 45%;
+    }
+
+    #page6 .child {
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    #page6 {
+        justify-content: flex-start;
+    }
+
+    #page6 .child .style .image-sec {
+        width: 45vw;
+    }
+
+    #page3 {
+        height: 50vh;
+    }
+
+    .cards-cont {
+        min-height: 50vh;
+        padding-top: 10vw;
+    }
+
+    .cards-cont .card {
+        gap: 10vh;
+    }
+
+    .last-para {
+        height: 40vh;
+    }
+
+    .inside-cont .left {
+        gap: 5vh;
+    }
+
+    .inside-cont .left .para {
+        width: 22vw;
+    }
+
+    #page5 {
+        min-height: 75vh;
+    }
+
+    #page6 .child .style p {
+        width: 30vw;
+    }
+
+    #page6 {
+        min-height: 75vh;
+    }
+
+    .cards-cont .head-repeat {
+        height: 19vh;
+    }
+
+    .circle p {
+        padding-bottom: 2vh;
+    }
+
+    #page7 .sec-1 h1 {
+        width: 770px;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #page2 {
+        height: 50vh;
+        padding: 8vw 6.3vw;
+    }
+
+    #page1 {
+        height: 62vh;
+    }
+
+    .moving-img {
+        bottom: 45%;
+    }
+
+    .inner-layer .first span {
+        left: 8.5%;
+    }
+
+    .circle p {
+        padding-left: 10px;
+    }
+}
+
+
+@media (max-width:853px) {
+
+    .page1-top img {
+        width: 53px;
+    }
+
+    #page4 .left h1 {
+        width: 40vw;
+    }
+
+    .cards-cont .card h1 {
+        font-size: 2.8rem;
+    }
+
+    .inside-cont .left .para {
+        width: 23vw;
+    }
+
+    .head-repeat h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .inner-layer .first span {
+        left: 2.5%;
+    }
+
+    .inside-cont .left .para {
+        width: 25vw;
+    }
+
+    .inner-layer .first span {
+        left: -2.5%;
+    }
+
+    .cards-cont .card h1 {
+        font-size: 2.6rem;
+    }
+
+    #page3 {
+        height: 42vh;
+    }
+
+    #page2 {
+        height: 60vh;
+    }
+
+    .inner-layer .repeat span {
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    #page2 .left {
+        gap: 35vw;
+    }
+}
+
+/* now making all things in the direction of a column for MOBILEs */
+
+@media (max-width:540px) {
+    nav {
+        gap: 58vw;
+    }
+
+    .page1-top img {
+        width: 39px;
+    }
+
+    #page2 .left h5 {
+        width: 35vw;
+    }
+
+    #page2 .left {
+        gap: 54vw;
+    }
+
+    #page2 {
+        height: 78vh;
+    }
+
+    #page4-cont {
+        flex-direction: column;
+    }
+
+    #page4 .left h1 {
+        width: 81vw;
+    }
+
+    #page4 .right p {
+        width: 89vw;
+    }
+
+    .cards-cont {
+        /* background-color: rebeccapurple; */
+        flex-direction: column;
+    }
+
+    .cards-cont .card {
+        width: 85%;
+    }
+
+    .last-para {
+        height: 85vh;
+    }
+
+    .inner-layer .first span {
+        left: -2.5%;
+        top: -65px;
+    }
+
+    .inner-layer .first {
+        justify-content: flex-start;
+    }
+
+    .para-last p {
+        padding-left: 0;
+    }
+
+    .inside-cont {
+        flex-direction: column;
+    }
+
+    .inside-cont .left .para {
+        width: 87vw;
+        padding-bottom: 10vw;
+    }
+
+    .inside-cont .left button {
+        width: 34vw;
+        margin-bottom: 10vw;
+    }
+
+    .para-repeat {
+        padding-bottom: 0;
+    }
+
+    #page6 {
+        justify-content: center;
+    }
+
+    #page6 .child {
+        flex-direction: column;
+        width: 87%;
+    }
+
+    #page6 .child .style p {
+        width: 90vw;
+    }
+
+    #page6 .child .style .image-sec {
+        width: 90vw;
+    }
+
+    #page6 .child .style h1 {
+        padding-top: 31vw;
+    }
+
+    #page7 {
+        margin-top: 4vw;
+    }
+
+    #page7 .sec-1 h1 {
+        font-size: 2.8rem;
+    }
+
+    .inner-layer .repeat button {
+        top: -84px;
+        width: 75vw;
+    }
+
+    #page7 .inner-layer {
+        width: 87%;
+    }
+
+    .sec-4-layer .first-part h1 {
+        width: 83vw;
+    }
+
+    .circle p {
+        font-size: 0.8rem;
+    }
+    .circle {
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+
+@media (max-width:430px) {
+    nav {
+        gap: 50vw;
+    }
+
+    #page1 h1 {
+        text-align: center;
+    }
+
+    .right-elem {
+        width: 38vw;
+    }
+
+    #page3 {
+        height: 26vh;
+    }
+
+    .inside-cont .left button {
+        width: 88vw;
+    }
+
+    .sec-3 .heading {
+        width: 87%;
+    }
+
+    .sec-3 .right-portion {
+        justify-content: center;
+    }
+
+    .topic-1 {
+        gap: 19vw;
+    }
+
+    .topic-1 p {
+        width: 55vw;
+    }
+
+    .sec-4-layer .first-part h1 {
+        font-size: 1.5rem;
+    }
+
+    .page1-top img {
+        width: 28px;
+    }
+
+    .circle p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:390px) {
+    nav {
+        gap: 38vw;
+    }
+
+    .right-elem {
+        width: 40vw;
+    }
+
+    #page7 .sec-1 h1 {
+        font-size: 2.3rem;
+    }
+
+    .inner-layer .first p {
+        width: 260px;
+    }
+
+    .circle p {
+        font-size: 0.5rem;
+    }
+
+ }
+
+@media (max-width:375px) {
+    .page1-top img {
+        width: 24px;
+    }
+
+    .right-elem {
+        width: 46vw;
+    }
+
+    .inner-layer .first span {
+        left: -2.5%;
+        top: -50px;
+    }
+
+    .last-para {
+        height: 119vh;
+    }
+
+    .inside-cont .left h1 {
+        color: black;
+        font-weight: 500;
+        width: 118px;
+    }
+
+    /* nav {
+        align-items: center;
+    } */
+
+    .cards-cont .head-repeat p {
+        font-size: 0.6rem;
+    }
+
+    .head-capsules p {
+        font-size: 0.5rem;
+    }
+
+    .topic-1 p {
+        font-size: 0.6rem;
+    }
+
+    .topic-1 h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:320px) {
+    #page1 p {
+        width: 263px;
+    }
+
+    nav {
+        gap: 36vw;
+    }
+
+    .right-elem h3 {
+        font-size: 1.1rem;
+    }
+
+    #page2 .left h5 {
+        font-size: 0.6rem;
+    }
+
+    #page2 .left p {
+        font-size: 0.6rem;
+    }
+
+    #page2 .left {
+        gap: 76vw;
+    }
+
+    .moving-img {
+        bottom: 32%;
+    }
+
+    #page1 {
+        height: 75vh;
+    }
+
+    .page1-top img {
+        width: 24px;
+    }
+
+    #page4 .left h1 {
+        width: 93vw;
+    }
+
+    .topic-1 {
+        gap: 21vw;
+    }
+
+    .inner-layer .first p {
+        width: 292px;
+    }
+
+    .cards-cont .head-repeat p {
+        color: white;
+        font-size: 0.6rem;
+    }
+}
