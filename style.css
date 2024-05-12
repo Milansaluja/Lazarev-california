@@ -18,15 +18,12 @@ nav {
     position: fixed;
     display: flex;
     align-items: flex-start;
-    /* align-items: center; */
     justify-content: space-between;
-    /* gap: 10px; */
     width: 100%;
     height: 7vw;
     padding: 5vw 6.3vw;
     z-index: 999;
     background-color: #111111;
-    /* background-color: rgb(85, 85, 52); */
 }
 
 .nav-inner-items {
@@ -38,7 +35,6 @@ nav {
     position: relative;
     z-index: 10;
     transition: all 1s ease;
-    /* background-color: rgb(85, 85, 52); */
 
 }
 
@@ -53,7 +49,6 @@ nav {
     font-size: 0.75rem;
     display: inline-block;
     transform: translateY(25px);
-    /* background-color: red; */
 }
 
 .nav-item> :nth-child(1) {
@@ -73,31 +68,32 @@ nav button {
     padding: 5px 10px;
     margin-right: 3px;
 }
-.pencil{
+
+.pencil {
     background-color: #0DA34E;
-    /* width: 35px;
-    height: 35px; */
     width: 30px;
     height: 32px;
     border-radius: 50%;
     display: none;
 }
-.pencil img{
+
+.pencil img {
     width: 100%;
 }
-#hamburger{
+
+#hamburger {
     cursor: pointer;
     display: none;
 }
-#cross p{
+
+#cross p {
     font-size: 1.5rem;
     display: none;
     cursor: pointer;
 }
 
-.merged-ham-pencil{
+.merged-ham-pencil {
     width: 72px;
-    /* justify-content: space-between; */
     gap: 10px;
 }
 
@@ -162,7 +158,6 @@ nav button {
 }
 
 .moving-img {
-    /* background-color: red; */
     position: absolute;
     bottom: 3%;
     width: 44vw;
@@ -218,7 +213,6 @@ nav button {
 
 #page2 {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     height: 100vh;
     width: 100%;
@@ -232,12 +226,10 @@ nav button {
 #page2 .left {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap: 25vw;
     height: 100%;
     width: 50%;
     padding: 2vw 0;
-    /* background-color: rgb(0, 225, 255); */
 
 }
 
@@ -250,20 +242,16 @@ nav button {
     width: 24vw;
     font-weight: 400;
     font-size: 0.75rem;
-
-    /* padding-bottom: 11vw; */
-
 }
 
 #page2 .right {
     height: 100%;
     width: 50%;
-    /* background-color: rgb(0, 30, 255); */
 }
+
 
 .right-elem {
     position: relative;
-    /* background-color: red; */
     padding: 1vw 0 5vw 0;
     width: 30vw;
     border-bottom: 1px solid #333;
@@ -349,7 +337,6 @@ nav button {
     padding: 2vw 6.3vw;
     padding-bottom: 6vw;
     border-top: 1px solid #333;
-    /* background-color: red; */
 }
 
 #page4-cont {
@@ -369,7 +356,6 @@ nav button {
 }
 
 #page4 .right {
-    /* background-color: rgb(208, 255, 0); */
     height: 100%;
     width: 50%;
 }
@@ -389,7 +375,6 @@ nav button {
 }
 
 .cards-cont {
-    /* background-color: rebeccapurple; */
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -401,10 +386,8 @@ nav button {
 .card {
     display: flex;
     flex-direction: column;
-    /* gap: 10vh; */
     justify-content: space-between;
     background-color: rgb(241, 239, 239);
-    /* width: 28vw; */
     width: 32%;
     padding: 5vh 0vw 3vh 1vw;
 }
@@ -428,38 +411,28 @@ nav button {
 .last-para {
     width: 100%;
     height: 68vh;
-    /* background-color: rebeccapurple; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .inner-layer {
-    /* border: 2px solid black; */
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* justify-content: flex-end; */
-    /* justify-content: space-evenly; */
 }
 
 .inner-layer .first {
     position: relative;
     width: 100%;
-    /* height: 100%; */
-    /* border: 2px solid rgb(153, 51, 104); */
-    /* width: 500px; */
     display: flex;
-    /* justify-content: center; */
     justify-content: flex-end;
     align-items: center;
 }
 
 .inner-layer .first p {
-    /* width: 500px; */
     width: 549px;
     font-size: 1.8rem;
     color: black;
@@ -486,16 +459,13 @@ nav button {
 .para-last p {
     padding-left: 24.5vw;
     font-size: 1.8rem;
-    /* border: 2px solid black; */
     width: 90%;
-    /* color: red; */
     color: black;
 }
 
 #page5 {
     min-height: 100vh;
     width: 100%;
-    /* background-color: orange; */
     padding: 0vw 6.3vw;
 
 }
@@ -514,7 +484,6 @@ nav button {
     gap: 10vh;
     width: 25%;
     padding-top: 3vh;
-    /* background-color: red; */
 }
 
 .inside-cont .left h1 {
@@ -543,7 +512,6 @@ nav button {
     border-top: 1px solid rgb(18, 83, 123);
     width: 100%;
     position: relative;
-    /* background-color: red; */
 }
 
 .inside-cont .right img {
@@ -565,19 +533,15 @@ nav button {
     justify-content: flex-end;
     width: 100%;
     min-height: 85vh;
-    /* background-color: rebeccapurple;  */
 }
 
 #page6 .child {
     display: flex;
     width: 71%;
-    /* width: 80%; */
     gap: 7.7vw;
 }
 
 #page6 .child .style {
-    /* background-color: yellow; */
-    /* width: 45.6%; */
     width: 40%;
     border-top: 1px solid black;
     padding-top: 2vh;
@@ -615,7 +579,6 @@ nav button {
     padding-top: 9vh;
     padding-bottom: 6vh;
     width: 29vw;
-    /* background-color: #0DA34E; */
 }
 
 #page7 {
@@ -636,7 +599,6 @@ nav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rebeccapurple; */
     border-bottom: 1px solid #dadada;
 }
 
@@ -656,7 +618,6 @@ nav button {
 .sec-2 {
     width: 100%;
     height: 60vh;
-    /* background-color: #0DA34E; */
 }
 
 .repeat button {
@@ -690,7 +651,6 @@ nav button {
 
 .heading {
     width: 69vw;
-    /* border: 2px solid red; */
     border-top: 2px solid white;
 }
 
@@ -709,7 +669,6 @@ nav button {
     border: 1px solid #dadada;
     border-radius: 20px;
     font-size: 0.7rem;
-    /* padding: 7px; */
     padding: 1vh;
 }
 
@@ -726,7 +685,6 @@ nav button {
 
 .topic-1 h2 {
     font-weight: 400;
-    /* border: 2px solid green; */
     width: 11vw;
 }
 
@@ -746,9 +704,7 @@ nav button {
 .sec-4 {
     width: 100%;
     min-height: 100vh;
-    /* background-color: green; */
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
 
@@ -757,7 +713,6 @@ nav button {
     height: 100%;
     border-top: 2px solid #333;
     padding-bottom: 10vh;
-    /* background-color: red; */
 }
 
 .sec-4-layer .first-part {
@@ -806,14 +761,12 @@ nav button {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* background-color: yellow; */
     height: 100%;
     padding-top: 2vh;
 }
 
 .circle {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: end;
     width: 11vw;
