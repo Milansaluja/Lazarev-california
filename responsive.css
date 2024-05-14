@@ -507,6 +507,9 @@
     .cards-cont .card {
         width: 100%;
     }
+    .card {
+        padding: 5vh 0vw 3vh 3vw;
+    }
 }
 
 @media (max-width:390px) {
