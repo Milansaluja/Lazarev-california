@@ -418,7 +418,8 @@
     }
 
     .circle p {
-        font-size: 0.8rem;
+        font-size: 1.8rem;
+        padding-bottom: 9vh;
     }
 
     .circle {
@@ -491,7 +492,20 @@
     }
 
     .circle p {
-        font-size: 0.7rem;
+        font-size: 1.6rem;
+        padding-bottom: 5vh;
+    }
+
+    .inner-layer .repeat button {
+        top: -121px;
+    }
+
+    .moving-img .move img {
+        height: 2.5vw;
+    }
+
+    .cards-cont .card {
+        width: 100%;
     }
 }
 
@@ -517,7 +531,11 @@
     }
 
     .circle p {
-        font-size: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .inner-layer .repeat button {
+        top: -218px;
     }
 
 }
@@ -573,6 +591,10 @@
     .topic-1 h2 {
         font-size: 1.2rem;
     }
+
+    .inner-layer .repeat button {
+        top: -133px;
+    }
 }
 
 @media (max-width:320px) {
@@ -591,12 +613,15 @@
     #page2 {
         height: 90vh;
     }
+
     .inner-layer .repeat button {
-        top: 640px;
+        top: 667px;
     }
-    .sec-3{
+
+    .sec-3 {
         padding-top: 46%;
     }
+
     .right-elem {
         padding: 1vw 0 22vw 0px;
     }
@@ -611,6 +636,7 @@
 
     #page4 .left h1 {
         width: 93vw;
+        font-size: 2.2rem;
     }
 
     #page4 .last-para {
@@ -632,5 +658,13 @@
     .cards-cont .head-repeat p {
         color: white;
         font-size: 0.6rem;
+    }
+
+    #page1 p {
+        padding-left: 1%;
+    }
+
+    .circle p {
+        font-size: 1.3rem;
     }
 }
